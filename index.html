@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare AI - Hỗ trợ Y tế & Sức khỏe thông minh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>MediCare AI</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Trang chủ</a></li>
+                    <li><a href="#services" class="nav-link">Dịch vụ</a></li>
+                    <li><a href="#features" class="nav-link">Tính năng</a></li>
+                    <li><a href="#about" class="nav-link">Về chúng tôi</a></li>
+                    <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hỗ trợ Y tế & Sức khỏe 24/7</h1>
+                <p class="hero-subtitle">Trợ lý AI thông minh giúp bạn chăm sóc sức khỏe mọi lúc mọi nơi</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="openChatbot()">
+                        <i class="fas fa-robot"></i>
+                        Bắt đầu tư vấn ngay
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        Xem demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50K+</h3>
+                        <p>Người dùng tin tưởng</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Hỗ trợ liên tục</p>
+                    </div>
+                    <div class="stat">
+                        <h3>95%</h3>
+                        <p>Độ chính xác cao</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-shield-virus"></i>
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dịch vụ của chúng tôi</h2>
+                <p>Sức khỏe của bạn là ưu tiên hàng đầu</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Tư vấn y tế</h3>
+                    <p>Nhận lời khuyên y tế chuyên nghiệp từ AI được đào tạo bởi các bác sĩ hàng đầu</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Quản lý thuốc</h3>
+                    <p>Nhắc nhở uống thuốc, theo dõi liều lượng và tương tác thuốc an toàn</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Theo dõi sức khỏe</h3>
+                    <p>Ghi nhận và phân tích các chỉ số sức khỏe quan trọng của bạn</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Tìm bệnh viện</h3>
+                    <p>Định vị các cơ sở y tế gần nhất và đánh giá chất lượng dịch vụ</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Đặt lịch hẹn</h3>
+                    <p>Đặt lịch khám với bác sĩ dễ dàng và nhanh chóng</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-medical"></i>
+                    </div>
+                    <h3>Hồ sơ sức khỏe</h3>
+                    <p>Lưu trữ và quản lý lịch sử bệnh án một cách an toàn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tính năng nổi bật</h2>
+                <p>Công nghệ AI tiên tiến phục vụ sức khỏe</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>AI thông minh</h3>
+                        <p>Công nghệ trí tuệ nhân tạo giúp chẩn đoán và tư vấn chính xác</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Bảo mật cao</h3>
+                        <p>Mã hóa dữ liệu và bảo vệ thông tin cá nhân tuyệt đối</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Đa nền tảng</h3>
+                        <p>Sử dụng trên mọi thiết bị - điện thoại, máy tính bảng, laptop</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Đa ngôn ngữ</h3>
+                        <p>Hỗ trợ nhiều ngôn ngữ để phục vụ đa dạng người dùng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Về MediCare AI</h2>
+                    <p>MediCare AI là nền tảng y tế số hàng đầu Việt Nam, tích hợp công nghệ AI để cung cấp dịch vụ chăm sóc sức khỏe thông minh, tiện lợi và hiệu quả cho mọi người dân.</p>
+                    <p>Chúng tôi cam kết mang đến giải pháp y tế chất lượng cao, giúp người dân tiếp cận dịch vụ y tế chuyên nghiệp mọi lúc, mọi nơi.</p>
+                    <div class="about-achievements">
+                        <div class="achievement">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Chứng nhận ISO</h4>
+                                <p>Tiêu chuẩn quốc tế về chất lượng dịch vụ y tế</p>
+                            </div>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <h4>Đối tác lớn</h4>
+                                <p>Hợp tác với 50+ bệnh viện hàng đầu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x400/4F46E5/FFFFFF?text=MediCare+AI+Team" alt="MediCare AI Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Liên hệ với chúng tôi</h2>
+                <p>Luôn sẵn sàng lắng nghe và hỗ trợ bạn</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Địa chỉ</h4>
+                            <p>123 Nguyễn Huệ, Quận 1, TP.HCM</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Hotline</h4>
+                            <p>1900 1234 (24/7)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>support@medicai.vn</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Số điện thoại">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tin nhắn của bạn" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>MediCare AI</span>
+                    </div>
+                    <p>Nền tảng y tế số thông minh cho sức khỏe của bạn</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Dịch vụ</h4>
+                    <ul>
+                        <li><a href="#">Tư vấn y tế</a></li>
+                        <li><a href="#">Quản lý thuốc</a></li>
+                        <li><a href="#">Theo dõi sức khỏe</a></li>
+                        <li><a href="#">Đặt lịch hẹn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hỗ trợ</h4>
+                    <ul>
+                        <li><a href="#">Trung tâm trợ giúp</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Đăng ký nhận tin</h4>
+                    <p>Nhận thông tin sức khỏe mới nhất</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email của bạn">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MediCare AI. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">
+            <div class="chatbot-info">
+                <i class="fas fa-robot"></i>
+                <div>
+                    <h4>Trợ lý Y tế AI</h3>
+                    <span class="status online">Online</span>
+                </div>
+            </div>
+            <button class="chatbot-close" onclick="closeChatbot()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-messages" id="chatMessages">
+            <div class="message bot-message">
+                <i class="fas fa-robot"></i>
+                <div class="message-content">
+                    <p>Xin chào! Tôi là trợ lý y tế AI. Tôi có thể giúp gì cho bạn hôm nay?</p>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Nhập câu hỏi của bạn..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" id="chatbotToggle" onclick="openChatbot()">
+        <i class="fas fa-comments"></i>
+        <span>Chat</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
