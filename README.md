@@ -62,20 +62,6 @@ cd ProjectTotNghiep
 ### 🌍 Đa ngôn ngữ
 - Hỗ trợ nhiều ngôn ngữ để phục vụ đa dạng người dùng
 
-## Giao diện ứng dụng
-
-### Trang chủ
-![Trang chủ MediCare AI](images/homepage.png)
-Giao diện trang chủ với thiết kế hiện đại, chuyên nghiệp và thân thiện với người dùng.
-
-### Chatbot tư vấn y tế
-![Chatbot MediCare AI](images/chatbot.png)
-Trợ lý AI thông minh sẵn sàng tư vấn sức khỏe 24/7.
-
-### Dịch vụ y tế
-![Dịch vụ MediCare AI](images/services.png)
-Các dịch vụ y tế đa dạng được trình bày trực quan.
-
 ## Liên hệ
 
 - **Địa chỉ**: 123 Nguyễn Huệ, Quận 1, TP.HCM
