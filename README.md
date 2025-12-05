@@ -64,9 +64,6 @@ cd ProjectTotNghiep
 
 ## Liên hệ
 
-- **Địa chỉ**: 123 Nguyễn Huệ, Quận 1, TP.HCM
-- **Hotline**: 1900 1234 (24/7)
-- **Email**: support@medicai.vn
 
 ## Bản quyền
 
